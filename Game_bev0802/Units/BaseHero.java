@@ -1,6 +1,6 @@
 package Game_bev0802.Units;
-import java.util.ArrayList;
 
+import java.util.ArrayList;
 import Game_bev0802.Program;
 /** 
  * BaseHero - БАЗОВЫЙ класс героя
