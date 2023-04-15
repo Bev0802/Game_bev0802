@@ -78,7 +78,7 @@ public class Init {
         Program.allUnits = new ArrayList<>();
         Program.allUnits.addAll(Program.whiteSide);
         Program.allUnits.addAll(Program.darkSide);
-        Program.allUnits.sort(new Comparator<BaseHero>() {
+        Program.darkSide.sort(new Comparator<BaseHero>() {
             @Override
             public int compare(BaseHero u1, BaseHero u2) {
                 if (u2.getSpeed() - u1.getSpeed() == 0)
